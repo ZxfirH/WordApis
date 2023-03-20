@@ -6,7 +6,7 @@ namespace WordApi.Controllers;
 [Route("[controller]/[action]")]
 public class WeatherForecastController : ControllerBase
 {
-    
+    // Default Array of Words.
     private static string[] Summaries = new[]
     {
         "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
